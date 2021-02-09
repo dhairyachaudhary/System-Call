@@ -1,6 +1,6 @@
 # System-Call
 
-A system call written in C, called sh task info(), which takes argument as PID. It searches out the task struct() corresponding to the PID and prints out all the fields corresponding to it and also saves it in a file. The file name also needs to be supplied as an argument to the system call.
+A system call written in C, called sh_task_info(), which takes argument as PID. It searches out the task struct() corresponding to the PID and prints out all the fields corresponding to it and also saves it in a file. The file name also needs to be supplied as an argument to the system call.
 
 Errors are handled in user inputs, such as incorrect arguments, through appropriate errno and function return values.
 
